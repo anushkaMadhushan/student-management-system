@@ -27,14 +27,14 @@ class Project extends CI_Controller
 
     // Display a record
     // */
-    public function show($id)
-    {
-        $data['project'] = $this->project->get($id);
-        $data['title'] = "Show Student";
-        $this->load->view('layout/header');
-        $this->load->view('project/show', $data);
-        $this->load->view('layout/footer');
-    }
+    // public function show($id)
+    // {
+    //     $data['project'] = $this->project->get($id);
+    //     $data['title'] = "Show Student";
+    //     $this->load->view('layout/header');
+    //     $this->load->view('project/show', $data);
+    //     $this->load->view('layout/footer');
+    // }
 
     /*
     Create a record page
